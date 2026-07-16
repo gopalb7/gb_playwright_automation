@@ -12,4 +12,5 @@ public class LoginPageLocators : BasePage
     protected ILocator UserName => Page.Locator("#user-name");
     protected ILocator Password => Page.Locator("#password");
     protected ILocator LoginButton => Page.Locator("#login-button");
+    protected ILocator LoginButton2 => Page.Locator("#login-button2");
 }
